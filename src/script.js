@@ -20,7 +20,7 @@ const emptyVertex = new THREE.Vector3();
 const textureLoader = new THREE.TextureLoader();
 
 // Tree material
-const treeMatcapTexture = textureLoader.load("./media/images/matcap1.png");
+const treeMatcapTexture = textureLoader.load("./images/matcap1.png");
 // encode the texture in sRGB
 treeMatcapTexture.colorSpace = THREE.SRGBColorSpace
 const material = new THREE.MeshMatcapMaterial();
